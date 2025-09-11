@@ -1,8 +1,19 @@
-let minhaIdade = 16;
-let meuNome = "enzo";
-let minhaCidade = "Pomerode";
-let gostadeProgramar = true;
+/*
+Em portugol:
 
-console.log(`Perfil: ${meuNome}, ${minhaIdade} anos`);
-console.log(`Cidade: mora em ${minhaCidade} `);
-console.log("Gosta de programar?", gostadeProgramar);
+numero nota
+
+se(nota >= 90) {
+escreva("Aprovado")
+}senao{
+escreva("Reprovado")
+}
+*/
+
+let nota = 85
+
+if(nota >= 90) {
+    console.log("Aprovado!");
+}else{
+    console.log("Reprovado!");
+}
