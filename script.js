@@ -1,13 +1,13 @@
-//Lopp de Repetição
+let contador = 1;
 
-for (let i = 0; i < 10; i++) {
-    console.log(`Numero ${i}`);
+while (contador < 3) {
+    console.log(`contador = ${contador}`);
+    contador++;
 }
 
-
-/*Sintaxe em portugol
-
-para(inteiro i = 0; i < 10; i++) {
-     escreva("Numero: , i)
-     }
+/*
+inteiro contador = 1
+enquanto (contador <= 3) {
+}escreva("contador: ",contador)
+contador = contador + 1
 */
