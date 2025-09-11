@@ -1,19 +1,10 @@
-/*
-Em portugol:
+{
+let a = 5;
+let b = "5";
 
-numero nota
-
-se(nota >= 90) {
-escreva("Aprovado")
-}senao{
-escreva("Reprovado")
-}
-*/
-
-let nota = 85
-
-if(nota >= 90) {
-    console.log("Aprovado!");
+if (a == b) {
+    console.log("true");
 }else{
-    console.log("Reprovado!");
+    console.log("false");
+}
 }
