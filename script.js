@@ -1,14 +1,13 @@
-let idade = 16;
+//Lopp de Repetição
 
-if (idade < 13) {
-    console.log("Criança");
-}else if (idade < 18) {
-    console.log("Adolescente");
-}else if (idade > 18) {
-    console.log("Adulto");
-}else {
-    console.log("Idoso");
+for (let i = 0; i < 10; i++) {
+    console.log(`Numero ${i}`);
 }
 
 
+/*Sintaxe em portugol
 
+para(inteiro i = 0; i < 10; i++) {
+     escreva("Numero: , i)
+     }
+*/
