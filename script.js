@@ -1,14 +1,8 @@
-let texto = "Ola munfo!";
-let numero = 16;
-let pi = 3.14;
-let booleano = true;
-let nulo = null;
-let indefinido;
+let minhaIdade = 16;
+let meuNome = "enzo";
+let minhaCidade = "Pomerode";
+let gostadeProgramar = true;
 
-
-console.log(typeof texto); //
-console.log(typeof numero);
-console.log(typeof pi);
-console.log(typeof booleano);
-console.log(typeof nulo);
-console.log(typeof indefinido);
+console.log(`Perfil: ${meuNome}, ${minhaIdade} anos`);
+console.log(`Cidade: mora em ${minhaCidade} `);
+console.log("Gosta de programar?", gostadeProgramar);
